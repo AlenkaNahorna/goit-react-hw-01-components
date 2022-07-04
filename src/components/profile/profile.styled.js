@@ -5,6 +5,7 @@ export const ProfileConteiner = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
   padding-top: 10px;
   border: 1px solid ${p => p.theme.colors.secondaryColorShadeDark};
   background-color: ${p => p.theme.colors.secondaryColor};
