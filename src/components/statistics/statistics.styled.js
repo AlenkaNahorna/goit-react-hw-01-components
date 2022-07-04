@@ -21,7 +21,6 @@ export const StatisticsList = styled.ul`
   display: flex;
   border-bottom-left-radius: ${p => p.theme.radii.normal};
   border-bottom-right-radius: ${p => p.theme.radii.normal};
-
   overflow: hidden;
 `;
 
