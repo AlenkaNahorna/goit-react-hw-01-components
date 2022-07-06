@@ -2,13 +2,14 @@ import PropTypes from 'prop-types';
 import {
   StatsListLabel,
   StatsListValue,
-} from 'components/profile/profile.styled';
+} from 'components/Profile/Profile.styled';
 import {
   StatisticsList,
   StatisticsListItem,
   StatisticsSection,
   StatisticsTitle,
-} from './statistics.styled';
+} from './Statistics.styled';
+import { getRandomHexColor } from 'utils/getRandomHexColor';
 
 export const Statistics = ({ title, stats }) => {
   return (
@@ -17,7 +18,10 @@ export const Statistics = ({ title, stats }) => {
 
       <StatisticsList>
         {stats.map(stat => (
-          <StatisticsListItem key={stat.id}>
+          <StatisticsListItem
+            key={stat.id}
+            backgroundColor={getRandomHexColor()}
+          >
             <StatsListLabel>{stat.label}</StatsListLabel>
             <StatsListValue>{stat.percentage}</StatsListValue>
           </StatisticsListItem>

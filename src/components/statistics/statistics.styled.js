@@ -24,10 +24,6 @@ export const StatisticsList = styled.ul`
   overflow: hidden;
 `;
 
-const getRandomHexColor = () => {
-  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-};
-
 export const StatisticsListItem = styled.li`
   width: 50px;
   display: flex;
@@ -35,5 +31,5 @@ export const StatisticsListItem = styled.li`
   align-items: center;
   padding: 20px;
   border: 1px solid ${p => p.theme.colors.secondaryColorShadeDark};
-  background-color: ${getRandomHexColor};
+  background-color: ${p => p.backgroundColor};
 `;

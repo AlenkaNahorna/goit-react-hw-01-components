@@ -2,7 +2,6 @@ import styled from '@emotion/styled';
 
 export const FriendsList = styled.ul`
   margin-bottom: 20px;
-  padding: 20px;
   border-radius: ${p => p.theme.radii.normal};
 `;
 
