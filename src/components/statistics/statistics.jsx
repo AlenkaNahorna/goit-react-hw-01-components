@@ -2,13 +2,13 @@ import PropTypes from 'prop-types';
 import {
   StatsListLabel,
   StatsListValue,
-} from 'components/profile/profile.styled';
+} from 'components/Profile/Profile.styled';
 import {
   StatisticsList,
   StatisticsListItem,
   StatisticsSection,
   StatisticsTitle,
-} from './statistics.styled';
+} from './Statistics.styled';
 import { getRandomHexColor } from 'utils/getRandomHexColor';
 
 export const Statistics = ({ title, stats }) => {
@@ -23,7 +23,7 @@ export const Statistics = ({ title, stats }) => {
             backgroundColor={getRandomHexColor()}
           >
             <StatsListLabel>{stat.label}</StatsListLabel>
-            <StatsListValue>{stat.percentage}</StatsListValue>
+            <StatsListValue>{stat.percentage}%</StatsListValue>
           </StatisticsListItem>
         ))}
       </StatisticsList>

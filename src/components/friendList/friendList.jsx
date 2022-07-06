@@ -1,11 +1,11 @@
-import { Username } from 'components/profile/profile.styled';
+import { Username } from 'components/Profile/Profile.styled';
 import PropTypes from 'prop-types';
 import {
   FriendsAvatar,
   FriendsList,
   FriendsListItem,
   OnLineStatus,
-} from './friendList.styled';
+} from './FriendList.styled';
 
 export const FriendList = ({ friends }) => {
   return (
