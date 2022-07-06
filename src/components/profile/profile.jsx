@@ -10,7 +10,7 @@ import {
   UserLocation,
   Username,
   UserTag,
-} from './Profile.styled';
+} from './profile.styled';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => (
   <ProfileConteiner>

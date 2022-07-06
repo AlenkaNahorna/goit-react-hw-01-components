@@ -2,13 +2,13 @@ import PropTypes from 'prop-types';
 import {
   StatsListLabel,
   StatsListValue,
-} from 'components/Profile/Profile.styled';
+} from 'components/profile/profile.styled';
 import {
   StatisticsList,
   StatisticsListItem,
   StatisticsSection,
   StatisticsTitle,
-} from './Statistics.styled';
+} from './statistics.styled';
 import { getRandomHexColor } from 'utils/getRandomHexColor';
 
 export const Statistics = ({ title, stats }) => {
