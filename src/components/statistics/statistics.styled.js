@@ -32,4 +32,7 @@ export const StatisticsListItem = styled.li`
   padding: 20px;
   border: 1px solid ${p => p.theme.colors.secondaryColorShadeDark};
   background-color: ${p => p.backgroundColor};
+  &:hover {
+    transform: scale(1.05);
+  }
 `;

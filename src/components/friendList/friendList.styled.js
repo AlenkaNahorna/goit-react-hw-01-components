@@ -15,6 +15,9 @@ export const FriendsListItem = styled.li`
   border: 1px solid ${p => p.theme.colors.secondaryColorShadeDark};
   border-radius: ${p => p.theme.radii.normal};
   background-color: ${props => props.theme.colors.secondaryColor};
+  &:hover {
+    transform: scale(1.05);
+  }
 `;
 
 export const OnLineStatus = styled.span`

@@ -3,7 +3,7 @@ import {
   TableData,
   TableHead,
   TransactionHistoryContainer,
-} from './TransactionHistory.styled';
+} from './transactionHistory.styled';
 
 export const TransactionHistory = ({ items }) => {
   return (
